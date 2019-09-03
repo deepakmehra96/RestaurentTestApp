@@ -1,0 +1,50 @@
+.mainContainer{
+    background-image: url('../../Assets/background.png');
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+}
+
+.contentOut {
+    margin: 5.5% auto;
+    max-width: 700px;
+    position: relative;
+}
+
+.contents {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px 0 0 0;
+    box-shadow: 1px 4px 45px 0 rgba(0, 0, 0, 0.1);
+    min-height: 400px ;
+}
+.stepContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    color: grey;
+}
+.stepButtons{
+    border: 1px solid grey;
+    color: grey;
+    padding: 7px 15px;
+    border-radius: 20px
+}
+
+.stepButtonColord{
+    border: 1px solid #007bff;
+    color: #007bff;
+    padding: 7px 15px;
+    border-radius: 20px
+}
+
+.stepContentsOut{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,39 @@
+.dropDownOut{
+    margin: 50px 0px;
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+}
+
+.innerContainer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.buttonOut{
+    margin-top: 50px;
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.buttonPrev{    
+    width:50%;
+    display: flex;
+    justify-content: center;
+}
+.buttonNext{
+    width:50%;
+    display: flex;
+    justify-content: center;
+}
+
+.errorMsg{
+    position: absolute;
+    bottom: -50px;
+    color: red;
+    font-size: 14px;
+}
